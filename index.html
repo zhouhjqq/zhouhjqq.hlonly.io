@@ -59,7 +59,7 @@
       
 
 
-<div class="overlay" style="background: #4d4d4d;"></div>
+<div class="overlay" style="background: #4d4d4d;background: url('/img/biubiubiu.gif') no-repeat ;"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -105,6 +105,18 @@
 					
 				
 			</div>
+		
+			
+			
+			
+			
+			<div>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="86" src="//music.163.com/outchain/player?type=2&id=1334445174&auto=1&height=66"></iframe>
+			</div>
+			
+				
+				<p style="font-size: 12px;">这似乎是首纯音乐，请尽情的欣赏它吧！<p>
+			
 		
 		</nav>
 	</header>		
@@ -178,19 +190,40 @@
             
 
   
-    <article id="post-httpnj" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-doh" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2021/12/31/doh/" target="_blank">简易设置DNS over HTTPs 服务器</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2021/12/31/doh/" class="archive-article-date">
+        <time datetime="2021-12-31T08:04:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-12-31</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
   <div class="article-entry" itemprop="articleBody">
     
-    <p><img src="mahua-logo.jpg" alt="mahua"><br>##MaHua是什么?<br>chrome解决http自动跳转https问题</p>
-<pre><code>1.地址栏输入： chrome://net-internals/#hsts
-
-2.找到底部Delete domain security policies一栏，输入想处理的域名，点击delete。
-</code></pre>
-<p><img src="37001-20171214102656426-1376069809.png" alt="mahua"></p>
-<p>3.搞定了，再次访问http域名不再自动跳转https了。</p>
-
+    <p>DNS over HTTPs 目前已经较为流行，考虑到公共服务的稳定性和安全性有限，使用VPS自建一个DOH服务是完全可行的。在参考网上的资料后，发现实际配置中还可以更简化。下面是最精简的方案，最大限度的采用了现成的脚本资源。</p>
+<p>排除一个IPV6错误.</p>
+    
+    <a class="article-more-a" href="/2021/12/31/doh/#more">more >></a>
+    
     
 
     
@@ -205,7 +238,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2021/12/31/httpnj/">展开全文 >></a>
+      <a class="article-more-a" href="/2021/12/31/doh/">展开全文 >></a>
     </p>
     
 
@@ -235,7 +268,7 @@
 
 
   
-    <article id="post-test-1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-httpnj" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -243,7 +276,7 @@
   
     <h1 itemprop="name">
 	
-	  <a class="article-title" href="/2021/12/31/test-1/" target="_blank">test</a>
+	  <a class="article-title" href="/2021/12/31/httpnj/" target="_blank">chrome解决http自动跳转https问题</a>
   
     </h1>
   
@@ -251,8 +284,8 @@
 
   
   
-<a href="/2021/12/31/test-1/" class="archive-article-date">
-        <time datetime="2021-12-31T04:49:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-12-31</time>
+<a href="/2021/12/31/httpnj/" class="archive-article-date">
+        <time datetime="2021-12-31T07:09:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-12-31</time>
 </a>
 
   
@@ -264,7 +297,13 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    
+    <pre><code>1.地址栏输入： chrome://net-internals/#hsts
+
+2.找到底部Delete domain security policies一栏，输入想处理的域名，点击delete。
+</code></pre>
+<p><img src="http://zhouhj.uicp.top/37001-20171214102656426-1376069809.png" alt="mahua"></p>
+<p>3.搞定了，再次访问http域名不再自动跳转https了。</p>
+
     
 
     
@@ -279,7 +318,7 @@
 
     
     <p class="article-more-link">
-      <a class="article-more-a" href="/2021/12/31/test-1/">展开全文 >></a>
+      <a class="article-more-a" href="/2021/12/31/httpnj/">展开全文 >></a>
     </p>
     
 
